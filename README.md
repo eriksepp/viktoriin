@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# Kodutöö: Viktoriin
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Viktoriini veebirakendus on loodud kasutades React raamistikku.  
+Küsimused laetakse `src/data/quizQuestions.json` failist. Vaikimisi on kokku viis küsimust, neist igal neli vastusevarianti, kuid praeguse kujunduse juures on võimalik kuvada ka kuni üheksa küsimust.  
+Peale vastuse valimist peab kasutaja vastuse kinnitama ning peale seda kuvatakse, kas vastus oli õige või vale. Navigatsiooniriba kaudu on võimalik liikuda tagasi eelmiste küsimuste juurde, kuid juba kinnitatud vastust enam muuta ei saa.
+Viktoriini lõpus kuvatakse punktitulemus, vastavalt skoorile sõnum ning iga küsimuse kohta tulemus, õige vastus ja valesti vastamise puhul ka kasutaja poolt antud vastus.
 
-## Available Scripts
+## Autor
 
-In the project directory, you can run:
+Erik Hans Sepp
+
+## Veebileht
+
+Rakendus on üleval veebilehel [https://eriksepp.github.io/](https://eriksepp.github.io/)
+
+## Testimine lokaalselt
+
+Kui soovid projekti oma arvutis testida, peab olema installeeritud Node.js.  
+Peale kausta arvutisse kloonimist tuleb projekti kaustas olles Node.js moodulite installatsiooniks sisestada käsureale käsklus `npm install`.
+
+Kui kõik vajalikud moodulid on installeeritud saad käivitada järgmised skriptid:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Käivitab rakenduse arendusrežiimis.\
+Ava [http://localhost:3000](http://localhost:3000), et seda oma brauseris vaadata.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Ehitab rakenduse avaldamiseks `build` kausta.
