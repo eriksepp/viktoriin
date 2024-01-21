@@ -1,4 +1,4 @@
-# Kodutöö: Viktoriin
+# Viktoriin
 
 Viktoriini veebirakendus on loodud kasutades React raamistikku.  
 Küsimused laetakse `src/data/quizQuestions.json` failist. Vaikimisi on kokku viis küsimust, neist igal neli vastusevarianti, kuid praeguse kujunduse juures on võimalik kuvada ka kuni üheksa küsimust.  
