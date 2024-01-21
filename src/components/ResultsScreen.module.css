@@ -1,0 +1,80 @@
+.resultsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.resultsContainer h1 {
+    font-size: 3.5rem;
+    margin-top: 3.7rem;
+    margin-bottom: 0;
+    margin-left: 5rem;
+}
+
+.resultsContainer h3 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-top: 0.5rem;
+    margin-left: 5rem;
+}
+
+.questionsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 5rem;
+}
+
+.questionWrapper {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.questionWrapper:first-child {
+    margin-top: 0;
+}
+
+.questionAnswerText {
+    width: 33rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+}
+
+.answerWrapper {
+    display: flex;
+}
+
+.wrongAnswer {
+    font-weight: bold;
+    color: var(--primary-red);
+    text-decoration: line-through;
+    margin-right: 0.5rem;
+}
+
+.correctAnswer {
+    font-weight: bold;
+    color: var(--text-green);
+}
+
+.checkBox {
+    border: 1px solid var(--primary-black);
+    width: 22px;
+    height: 22px;
+    vertical-align: middle;
+    margin-top: 0.3rem;
+    margin-left: 2.92rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.correctCheckbox {
+    background-color: var(--primary-green);
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='9' fill='none'><path fill='%23ffffff' d='M4.127 6.093L10.22 0l1.414 1.414L4.127 8.921 0 4.794 1.414 3.38l2.713 2.713z'/></svg>");
+}
+
+.wrongCheckbox {
+    background-color: var(--primary-red);
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'><path d='M1 1 L11 11 M1 11 L11 1' stroke='%23ffffff' stroke-width='2'/></svg>");
+}

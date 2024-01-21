@@ -1,0 +1,10 @@
+:root {
+    --primary-white: white;
+    --primary-black: black;
+    --primary-green: #3CC239;
+    --text-green: #2db42a;
+    --primary-red: #C23939;
+    --primary-grey: rgb(86, 86, 86);
+    --box-shadow-wide: rgba(0,0,0,.03);
+    --box-shadow-narrow: rgba(0,0,0,.096);
+}

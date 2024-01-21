@@ -1,0 +1,32 @@
+.container {
+    flex-grow: 1;
+    text-align: left;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container h1 {
+    margin: 3.7rem 0 3.1rem 0;
+    font-size: 3.75rem;
+}
+
+.instructionsWrapper {
+    margin: 0;
+    padding: 0; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 3rem;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    margin-top: 3.1rem;
+}
+
+p:first-child {
+    margin-top: 0;
+}

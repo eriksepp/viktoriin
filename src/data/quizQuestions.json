@@ -1,0 +1,57 @@
+[
+    {
+      "id": 1,
+      "question": "Mis on Eesti pealinn?",
+      "answerOptions": [
+        "Pärnu",
+        "Tallinn",
+        "Tartu",
+        "Haapsalu"
+      ],
+      "correctAnswer": "Tallinn"
+    },
+    {
+      "id": 2,
+      "question": "Mis on Eesti suurim saar?",
+      "answerOptions": [
+        "Muhu",
+        "Hiiumaa",
+        "Vormsi",
+        "Saaremaa"
+      ],
+      "correctAnswer": "Saaremaa"
+    },
+    {
+        "id": 3,
+        "question": "Mis on Eesti rahvuslind?",
+        "answerOptions": [
+          "Kaldapääsuke",
+          "Räästapääsuke",
+          "Suitsupääsuke",
+          "Roostepääsuke"
+        ],
+        "correctAnswer": "Suitsupääsuke"
+      },
+      {
+        "id": 4,
+        "question": "Mis on Eesti pikim jõgi?",
+        "answerOptions": [
+          "Pedja jõgi",
+          "Pärnu jõgi",
+          "Pirita jõgi",
+          "Võhandu jõgi"
+        ],
+        "correctAnswer": "Võhandu jõgi"
+      },
+      {
+        "id": 5,
+        "question": "Mis on Eesti sügispealinn?",
+        "answerOptions": [
+          "Haapsalu",
+          "Narva",
+          "Viljandi",
+          "Rakvere"
+        ],
+        "correctAnswer": "Narva"
+      }
+  ]

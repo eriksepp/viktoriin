@@ -1,0 +1,47 @@
+.progressBarContainer {
+    display: flex;
+    flex-flow: row;
+    column-gap: 3rem;
+    justify-content: space-between;
+    position: relative;
+    padding: 3.5rem 3.5rem 0 3.5rem;
+}
+
+.progressBarContainer::before {
+    content: "";
+    background-color: var(--primary-black);
+    height: 1px;
+    position: absolute;
+    top: 5.25rem;
+    left: 0;
+    right: 0;
+    margin: 0 3.75rem 0 3.75rem;
+}
+
+.progressSquare::before {
+    content: attr(data-number);
+    border: 2px solid var(--primary-black);
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 3rem;
+    line-height: 3rem;
+    display: block;
+}
+
+.progressSquareWhite::before {
+    background-color: var(--primary-white);
+}
+
+.progressSquareBlack::before {
+    background-color: var(--primary-black);
+    color: var(--primary-white);
+}
+
+.progressSquareClickable::before {
+    cursor: pointer;
+}
+
+.progressSquareClickable:hover::before {
+    background-color: var(--primary-grey);
+}
